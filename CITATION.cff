@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, locked result files, or reproducibility package, please cite this release and the associated journal article when available. Correspondence: Wenbin Liu."
+title: "Contact Angle Prediction Dataset and Physics-Constrained Residual Learning Results, Version 3.4"
+type: dataset
+authors:
+  - given-names: Yuying
+    family-names: Xia
+  - given-names: Wenbin
+    family-names: Liu
+  - given-names: Mingyang
+    family-names: Shen
+  - given-names: Rui
+    family-names: Xing
+  - given-names: Xuyang
+    family-names: Gao
+version: "v3.4"
+date-released: "2026-05-25"
+license: "CC-BY-4.0"
+abstract: "A public v3.4 contact-angle dataset and locked reproducibility package for leakage-aware evaluation of physics-constrained residual learning with apparent surface-energy descriptors. The release includes curated contact-angle records, fixed split manifests, LOO-SFE corrected result tables, paired statistical comparisons, and figure-generation inputs."
+keywords:
+  - contact angle
+  - wettability
+  - surface energy
+  - physics-constrained learning
+  - residual learning
+  - leakage-aware validation
+  - leave-one-liquid-out SFE
+

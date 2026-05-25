@@ -1,0 +1,54 @@
+Dual License Notice
+===================
+
+This public release uses a dual-license scheme.
+
+1. Data, documentation, locked result tables, statistical comparison files,
+   and figure-generation input files are licensed under the Creative Commons
+   Attribution 4.0 International License (CC BY 4.0).
+
+   SPDX-License-Identifier: CC-BY-4.0
+   License text: https://creativecommons.org/licenses/by/4.0/legalcode
+   Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+   You may share and adapt these materials for any purpose, provided that
+   appropriate credit is given, a link to the license is provided, and any
+   changes are indicated. When reusing source-level contact-angle records,
+   users should also cite the relevant original literature sources listed in
+   the source reference map.
+
+2. Code and scripts in this release are licensed under the MIT License.
+
+   SPDX-License-Identifier: MIT
+
+   MIT License
+
+   Copyright (c) 2026 Yuying Xia, Wenbin Liu, Mingyang Shen,
+   Rui Xing, and Xuyang Gao
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to deal in the Software without restriction, including without limitation
+   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+   IN THE SOFTWARE.
+
+Scope Clarification
+-------------------
+
+This license file applies to the release package itself. It does not relicense
+third-party articles, source publications, publisher PDFs, or external
+materials referenced by DOI or URL. Those materials remain governed by their
+respective rights holders and licenses.
+
