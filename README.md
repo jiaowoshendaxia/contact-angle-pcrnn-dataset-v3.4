@@ -1,4 +1,17 @@
-# Contact Angle PCRNN Dataset and Reproducibility Package v3.4
+# Contact Angle Prediction Dataset and Reproducibility Packages
+
+## Current Release: LS-PSRMoE v4.1
+
+The current research release is available under [`v4.1/`](v4.1/README.md). It
+contains the leakage-safe probe-assisted pipeline, normalized v4 data tables,
+source/surface-disjoint validation, target-masked NNLS-OWRK physical summaries,
+physics-residual XGBoost modeling, uncertainty analysis, tests, and locked
+paper-facing results.
+
+The earlier PCRNN v3.4 package is preserved below as a legacy release so that
+published hashes, results, and tags remain auditable.
+
+## Legacy Release: PCRNN v3.4
 
 This public package accompanies the study on leakage-aware, physics-constrained residual learning for contact-angle prediction with apparent surface-energy descriptors. It provides the curated v3.4 contact-angle dataset, fixed split manifest, locked result tables, statistical comparison files, and figure-generation inputs needed to audit and reproduce the main reported tables and figures.
 

@@ -1,0 +1,57 @@
+{
+  "status": "conditional_paper_ready",
+  "recommended_primary_model": "physics_residual_xgboost_expert",
+  "recommended_secondary_model": "ls_psrmoe_fusion",
+  "reason": "The physics-residual tree is the strongest leakage-safe cross-source model; the neural branch was automatically pruned and must not be claimed as a performance driver.",
+  "nested_source_cv": {
+    "n": 240,
+    "n_sources": 8,
+    "physics_mae_deg": 16.334625195833333,
+    "physics_residual_xgboost_mae_deg": 14.493020625046013,
+    "improvement_deg": 1.8416045707873199,
+    "bootstrap": {
+      "surface_group_id": {
+        "n_clusters": 73,
+        "n_resamples": 10000,
+        "mae_difference_a_minus_b_deg": -1.8416045707873199,
+        "ci95_lower_deg": -4.280064969884693,
+        "ci95_upper_deg": 0.4862489128149018,
+        "probability_a_better": 0.9337
+      },
+      "source_group_id": {
+        "n_clusters": 8,
+        "n_resamples": 10000,
+        "mae_difference_a_minus_b_deg": -1.8416045707873199,
+        "ci95_lower_deg": -8.793380550842473,
+        "ci95_upper_deg": 5.654450846098484,
+        "probability_a_better": 0.6774
+      }
+    }
+  },
+  "fixed_external_confirmation": {
+    "n": 206,
+    "fusion_mae_deg": 13.315202190263811,
+    "physics_residual_xgboost_mae_deg": 13.438596243279742
+  },
+  "uncertainty_and_rejection": {
+    "coverage": 0.8791666666666667,
+    "mean_width_deg": 80.02562585540412,
+    "retained_fraction": 0.8,
+    "retained_mae_deg": 16.267491269380738
+  },
+  "final_weights": {
+    "physics": 0.21633291652081033,
+    "neural": 9.299473083951293e-16,
+    "xgboost": 0.7836670834791888
+  },
+  "checks": {
+    "nested_residual_tree_improves_physics_by_at_least_1_deg": true,
+    "nested_surface_bootstrap_ci_below_zero": false,
+    "external_fusion_mae_at_most_16_deg": true,
+    "nested_interval_coverage_85_to_95_percent": true,
+    "nested_mean_interval_width_at_most_80_deg": false,
+    "retain_80_percent_and_reduce_mae": true,
+    "neural_expert_has_nonzero_final_weight": false
+  },
+  "full_acceptance": false
+}

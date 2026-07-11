@@ -1,0 +1,59 @@
+project:
+  model_version: ls-psrmoe-v4.1
+  seed: 20260710
+  output_data_dir: data/processed
+  audit_file: data/processed/loo_nnls_audit_v4.csv
+  output_dir: outputs/v4_1_final
+
+sample:
+  primary_mode: probe_assisted
+  minimum_unique_probes: 2
+  feasible_fit_status: [interior_fit, boundary_fit]
+  development_splits: [train, validation]
+  confirmation_splits: [internal_test, legacy_external, prospective_open_external]
+
+model:
+  categorical_embedding_dim: 8
+  dropout: 0.10
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  search_epochs: 400
+  search_patience: 50
+  final_epochs: 1000
+  final_patience: 100
+  search_seeds: [7, 42, 99]
+  final_seeds: [7, 19, 42, 67, 99]
+  max_delta_candidates: [0.15, 0.25, 0.35]
+  source_balance_candidates: [true, false]
+  residual_penalty_candidates: [0.02, 0.05]
+  expert_sets:
+    - [physics, neural]
+    - [physics, neural, xgboost]
+    - [physics, neural, random_forest]
+    - [physics, neural, xgboost, random_forest]
+  simpler_tie_deg: 0.25
+  tree_expert_target: nnls_residual
+
+loss:
+  angle_huber: 1.00
+  cosine_mse: 0.50
+  gaussian_nll: 0.05
+
+validation:
+  outer_folds: 4
+  inner_folds: 3
+
+uncertainty:
+  confidence_level: 0.90
+  coverage_lower: 0.85
+  coverage_upper: 0.95
+  ood_quantile: 0.95
+  abstention_width_quantile: 0.90
+  abstention_score_quantile: 0.80
+  adaptive_scale_floor_deg: 5.0
+
+statistics:
+  bootstrap_resamples: 10000
+  primary_cluster: surface_group_id
+  sensitivity_cluster: source_group_id

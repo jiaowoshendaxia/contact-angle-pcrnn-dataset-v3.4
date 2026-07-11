@@ -1,0 +1,128 @@
+{
+  "surface_scaler": {
+    "means": {
+      "roughness_Ra_nm": 344.6333333333334,
+      "roughness_Rq_nm": 446.31666666666666,
+      "roughness_r_factor": 1.035
+    },
+    "scales": {
+      "roughness_Ra_nm": 335.614772552633,
+      "roughness_Rq_nm": 439.0940423822163,
+      "roughness_r_factor": 0.03299494910841152
+    }
+  },
+  "liquid_scaler": {
+    "means": {
+      "liquid_total_surface_tension_mN_m": 52.128571428571426,
+      "liquid_dispersion_mN_m": 35.642857142857146,
+      "liquid_polar_mN_m": 16.485714285714288,
+      "liquid_viscosity_mPa_s": 3.95,
+      "liquid_dipole_moment_D": 0.55,
+      "liquid_dielectric_constant": 3.75
+    },
+    "scales": {
+      "liquid_total_surface_tension_mN_m": 13.490389625392513,
+      "liquid_dispersion_mN_m": 9.423353534529769,
+      "liquid_polar_mN_m": 17.392562332497068,
+      "liquid_viscosity_mPa_s": 0.9500000000000002,
+      "liquid_dipole_moment_D": 0.55,
+      "liquid_dielectric_constant": 1.6500000000000001
+    }
+  },
+  "condition_scaler": {
+    "means": {
+      "temperature_K": 298.075,
+      "humidity_percent": 15.0,
+      "pressure_atm": 1.0,
+      "droplet_volume_uL": 3.0
+    },
+    "scales": {
+      "temperature_K": 0.26339134382131846,
+      "humidity_percent": 1.0,
+      "pressure_atm": 1.0,
+      "droplet_volume_uL": 1.0
+    }
+  },
+  "physics_scaler": {
+    "means": {
+      "nnls_dispersion_mj_m2": 31.557238572386904,
+      "nnls_polar_mj_m2": 4.856156240607465,
+      "nnls_physical_prediction_deg": 70.45613704232052,
+      "nnls_residual_norm": 2.08409877753107,
+      "n_unique_liquids": 2.4
+    },
+    "scales": {
+      "nnls_dispersion_mj_m2": 13.0533111552022,
+      "nnls_polar_mj_m2": 9.218535198925096,
+      "nnls_physical_prediction_deg": 33.505594665672916,
+      "nnls_residual_norm": 5.172941849225875,
+      "n_unique_liquids": 0.7000000000000001
+    }
+  },
+  "category_encoder": {
+    "solid_family": {
+      "<missing>": 2,
+      "carbon_material": 3,
+      "cellulose": 4,
+      "oxide": 5,
+      "polymer": 6,
+      "semiconductor": 7
+    },
+    "solid_substrate": {
+      "<missing>": 2,
+      "cellulose ester film/membrane": 3,
+      "electrospun terpolymer nanofibers containing perfluoroethyl alkyl methacrylate": 4,
+      "rare-earth oxide ceramic": 5,
+      "silicon": 6,
+      "smooth silicon": 7,
+      "titanium/titania nanotube array": 8
+    },
+    "surface_treatment": {
+      "<missing>": 2,
+      "anodization": 3,
+      "chemical_modification": 4,
+      "coating": 5,
+      "etching": 6,
+      "other": 7,
+      "sintering": 8,
+      "untreated": 9,
+      "uv_ozone": 10
+    },
+    "coating_or_layer": {
+      "<missing>": 2,
+      "cbd plant-origin stabilizer additive": 3,
+      "ceo2 sputtered on smooth si": 4,
+      "electrospun terpolymer nanofibers containing perfluoroethyl alkyl methacrylate": 5,
+      "er2o3 sputtered on smooth si": 6,
+      "fots fluoroalkylsilane layer": 7
+    },
+    "surface_state": {
+      "<missing>": 2,
+      "ceramic": 3,
+      "nanotube_array": 4,
+      "porous": 5,
+      "powder": 6,
+      "rough": 7,
+      "smooth": 8
+    },
+    "contact_angle_type": {
+      "apparent": 2,
+      "static": 3
+    },
+    "measurement_method": {
+      "capillary_rise": 2,
+      "sessile_drop": 3
+    }
+  },
+  "physics_fields": [
+    "nnls_dispersion_mj_m2",
+    "nnls_polar_mj_m2",
+    "nnls_physical_prediction_deg",
+    "nnls_residual_norm",
+    "n_unique_liquids"
+  ],
+  "fit_statuses": [
+    "interior_fit",
+    "boundary_fit"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "confidence_level": 0.9,
+  "selected_method": "ensemble",
+  "conformal_quantile": 7.941617833126253,
+  "crossvalidated_comparison": [
+    {
+      "method": "absolute",
+      "n": 240,
+      "mae_deg": 18.689485503025086,
+      "rmse_deg": 24.21086475309584,
+      "r2": 0.5566781893218067,
+      "medae_deg": 15.03876095215093,
+      "p90ae_deg": 42.60347891690604,
+      "interval_coverage": 0.8833333333333333,
+      "mean_interval_width_deg": 87.03717900799957
+    },
+    {
+      "method": "ensemble",
+      "n": 240,
+      "mae_deg": 18.689485503025086,
+      "rmse_deg": 24.21086475309584,
+      "r2": 0.5566781893218067,
+      "medae_deg": 15.03876095215093,
+      "p90ae_deg": 42.60347891690604,
+      "interval_coverage": 0.8791666666666667,
+      "mean_interval_width_deg": 80.02562585540412
+    },
+    {
+      "method": "adaptive",
+      "n": 240,
+      "mae_deg": 18.689485503025086,
+      "rmse_deg": 24.21086475309584,
+      "r2": 0.5566781893218067,
+      "medae_deg": 15.03876095215093,
+      "p90ae_deg": 42.60347891690604,
+      "interval_coverage": 0.8791666666666667,
+      "mean_interval_width_deg": 85.43081472122167
+    }
+  ],
+  "ood_raw_distance_threshold": 24.300936126705963,
+  "abstention_score": "ensemble_std_deg",
+  "abstention_score_threshold_deg": 2.772659016110027
+}

@@ -1,0 +1,77 @@
+{
+  "model_version": "ls-psrmoe-v4.1",
+  "primary_mode": "probe_assisted",
+  "selection_evidence": "four-fold outer, three-fold inner source-group CV",
+  "fold_selections": [
+    {
+      "outer_fold": 0,
+      "config_key": "delta0.25_balanced_rp0.05",
+      "max_delta_cos": 0.25,
+      "source_balance": true,
+      "residual_penalty": 0.05,
+      "expert_set": "physics+neural",
+      "n_experts": 2,
+      "inner_oof_mae_deg": 14.37063750672487,
+      "inner_oof_source_median_mae_deg": 13.74431289799113,
+      "weights_json": "{\"neural\": 0.314515021710637, \"physics\": 0.6854849782893631}",
+      "median_best_epoch": 6
+    },
+    {
+      "outer_fold": 1,
+      "config_key": "delta0.35_balanced_rp0.02",
+      "max_delta_cos": 0.35,
+      "source_balance": true,
+      "residual_penalty": 0.02,
+      "expert_set": "physics+neural+xgboost",
+      "n_experts": 3,
+      "inner_oof_mae_deg": 16.263889938860643,
+      "inner_oof_source_median_mae_deg": 19.0929854145812,
+      "weights_json": "{\"neural\": 0.06132216204324308, \"physics\": 0.0, \"xgboost\": 0.938677837956757}",
+      "median_best_epoch": 3
+    },
+    {
+      "outer_fold": 2,
+      "config_key": "delta0.35_balanced_rp0.02",
+      "max_delta_cos": 0.35,
+      "source_balance": true,
+      "residual_penalty": 0.02,
+      "expert_set": "physics+neural",
+      "n_experts": 2,
+      "inner_oof_mae_deg": 9.177894918653699,
+      "inner_oof_source_median_mae_deg": 11.565868899027508,
+      "weights_json": "{\"neural\": 1.0, \"physics\": 0.0}",
+      "median_best_epoch": 12
+    },
+    {
+      "outer_fold": 3,
+      "config_key": "delta0.35_unbalanced_rp0.05",
+      "max_delta_cos": 0.35,
+      "source_balance": false,
+      "residual_penalty": 0.05,
+      "expert_set": "physics+neural+xgboost",
+      "n_experts": 3,
+      "inner_oof_mae_deg": 13.850152574370426,
+      "inner_oof_source_median_mae_deg": 16.240357971154623,
+      "weights_json": "{\"neural\": 0.5076443864208205, \"physics\": 2.5483790899445517e-16, \"xgboost\": 0.4923556135791792}",
+      "median_best_epoch": 16
+    }
+  ],
+  "consensus_search_config": {
+    "max_delta_cos": 0.35,
+    "source_balance": false,
+    "residual_penalty": 0.05
+  },
+  "consensus_expert_set": [
+    "physics",
+    "neural",
+    "xgboost"
+  ],
+  "consensus_weights": {
+    "physics": 0.21633291652081033,
+    "neural": 9.299473083951293e-16,
+    "xgboost": 0.7836670834791888
+  },
+  "fixed_epochs": 10,
+  "external_sets_used_for_selection": false,
+  "external_label": "fixed cross-source external confirmation"
+}
