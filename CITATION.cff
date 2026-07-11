@@ -15,6 +15,9 @@ authors:
     family-names: Gao
 version: "v4.1.0"
 date-released: "2026-07-11"
+doi: "10.5281/zenodo.21305764"
+repository-code: "https://github.com/jiaowoshendaxia/contact-angle-pcrnn-dataset-v3.4"
+url: "https://doi.org/10.5281/zenodo.21305764"
 license: "CC-BY-4.0"
 abstract: "A public v4.1 contact-angle dataset, research codebase, and locked reproducibility package for target-masked probe-assisted prediction. The primary model uses nonnegative NNLS-OWRK surface-energy summaries and physics-residual XGBoost learning under nested source-group validation."
 keywords:

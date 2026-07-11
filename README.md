@@ -2,11 +2,16 @@
 
 ## Current Release: LS-PSRMoE v4.1
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21305764.svg)](https://doi.org/10.5281/zenodo.21305764)
+
 The current research release is available under [`v4.1/`](v4.1/README.md). It
 contains the leakage-safe probe-assisted pipeline, normalized v4 data tables,
 source/surface-disjoint validation, target-masked NNLS-OWRK physical summaries,
 physics-residual XGBoost modeling, uncertainty analysis, tests, and locked
 paper-facing results.
+
+Version-specific archived release: [Zenodo 10.5281/zenodo.21305764](https://doi.org/10.5281/zenodo.21305764).
+The all-versions concept DOI is [10.5281/zenodo.20382890](https://doi.org/10.5281/zenodo.20382890).
 
 The earlier PCRNN v3.4 package is preserved below as a legacy release so that
 published hashes, results, and tags remain auditable.

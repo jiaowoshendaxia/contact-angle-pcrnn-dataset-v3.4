@@ -1,5 +1,7 @@
 # LS-PSRMoE v4.1 Reproducibility Package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21305764.svg)](https://doi.org/10.5281/zenodo.21305764)
+
 This directory contains the public research code, normalized data tables,
 frozen configuration, tests, predictions, and statistical outputs for
 leakage-safe probe-assisted contact-angle prediction.
@@ -138,7 +140,11 @@ and check the original source license.
 
 ## Citation And License
 
-Use the repository-level `CITATION.cff`. Code is released under the MIT
+The version-specific archive DOI is
+[10.5281/zenodo.21305764](https://doi.org/10.5281/zenodo.21305764), and the
+all-versions concept DOI is
+[10.5281/zenodo.20382890](https://doi.org/10.5281/zenodo.20382890). Use the
+repository-level `CITATION.cff`. Code is released under the MIT
 License. Author-created data compilation, documentation, and derived results
 are released under CC BY 4.0, subject to the third-party scope clarification
 above and in the repository-level `LICENSE` file.
