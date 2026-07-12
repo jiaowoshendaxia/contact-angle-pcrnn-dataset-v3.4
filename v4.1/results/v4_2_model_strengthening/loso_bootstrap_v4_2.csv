@@ -1,0 +1,15 @@
+﻿model_a,model_b,cluster,n_clusters,n_resamples,mae_difference_a_minus_b_deg,ci95_lower_deg,ci95_upper_deg,probability_a_better
+global_mean_residual,nnls_physics,source_group_id,8,10000,0.19765312592854656,-1.242141726777355,1.8929936155109388,0.4148
+global_mean_residual,nnls_physics,surface_group_id,73,10000,0.19765312592854656,-0.39393214696832335,0.8243713022044179,0.2639
+liquid_mean_residual,nnls_physics,source_group_id,8,10000,0.5667077933995408,-3.1018060758531667,4.595902971882024,0.3922
+liquid_mean_residual,nnls_physics,surface_group_id,73,10000,0.5667077933995408,-0.847122890449906,2.0417567526130234,0.2229
+ridge_residual,nnls_physics,source_group_id,8,10000,3.0827506581942252,-1.2428864452099972,10.321505261293156,0.1659
+ridge_residual,nnls_physics,surface_group_id,73,10000,3.0827506581942252,1.0327100907504072,5.459951345275349,0.001
+direct_xgboost,nnls_physics,source_group_id,8,10000,0.48421629503369346,-7.4237288853564785,8.298714729295895,0.4396
+direct_xgboost,nnls_physics,surface_group_id,73,10000,0.48421629503369346,-2.275458312762301,3.1762758268571263,0.3634
+physics_residual_xgboost,nnls_physics,source_group_id,8,10000,-0.9762314523415014,-8.127245273240874,6.091712535780662,0.585
+physics_residual_xgboost,nnls_physics,surface_group_id,73,10000,-0.9762314523415014,-3.470884921976185,1.439773037540506,0.787
+source_weighted_physics_residual_xgboost,nnls_physics,source_group_id,8,10000,-1.5404496739928906,-8.792271262634369,5.611156227741078,0.6374
+source_weighted_physics_residual_xgboost,nnls_physics,surface_group_id,73,10000,-1.5404496739928906,-4.044298617524643,0.8909070965745673,0.8902
+source_weighted_physics_residual_xgboost,physics_residual_xgboost,source_group_id,8,10000,-0.5642182216513891,-0.8027838630773907,-0.1836959681644437,0.9948
+source_weighted_physics_residual_xgboost,physics_residual_xgboost,surface_group_id,73,10000,-0.5642182216513891,-0.8045016437097621,-0.3332090701460978,1.0

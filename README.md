@@ -10,6 +10,12 @@ source/surface-disjoint validation, target-masked NNLS-OWRK physical summaries,
 physics-residual XGBoost modeling, uncertainty analysis, tests, and locked
 paper-facing results.
 
+An additive post-lock v4.2 robustness extension is also available inside
+[`v4.1/`](v4.1/README.md). It adds leave-one-source-out transfer, simple
+residual baselines, a source-weighting stress test, fixed confirmation, and
+worked application examples. The archived v4.1 model remains primary because
+the source-weighted candidate failed all three fixed confirmation cohorts.
+
 Version-specific archived release: [Zenodo 10.5281/zenodo.21305764](https://doi.org/10.5281/zenodo.21305764).
 The all-versions concept DOI is [10.5281/zenodo.20382890](https://doi.org/10.5281/zenodo.20382890).
 

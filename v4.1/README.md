@@ -48,14 +48,30 @@ The 90% conformal interval has 87.9% nested-CV coverage and an 80.03-degree
 mean width. Removing the highest-risk 20% reduces nested-CV MAE from 18.69 to
 16.27 degrees.
 
+## Post-Lock v4.2 Robustness Extension
+
+The repository also includes an additive post-lock robustness analysis. It
+does not replace the archived v4.1 release or alter its selected primary model.
+The analysis holds out each of the eight development sources once and adds
+global-mean, target-liquid-mean, Ridge, direct XGBoost, unweighted residual
+XGBoost, and source-weighted residual XGBoost comparisons.
+
+Under leave-one-source-out evaluation, NNLS physics, direct XGBoost and the
+locked unweighted physics-residual XGBoost achieved MAEs of 16.335, 16.819 and
+15.358 degrees, respectively. Source weighting improved development LOSO to
+14.794 degrees, but worsened the unweighted residual model on all three fixed
+confirmation cohorts. It was therefore rejected without further tuning. The
+locked outputs are under `results/v4_2_model_strengthening`, and the decision
+record is `docs/V4_2_MODEL_STRENGTHENING_ASSESSMENT.md`.
+
 ## Directory Layout
 
 ```text
 v4.1/
-  configs/                 Frozen v4.1 main and smoke configurations
+  configs/                 Frozen v4.1 and post-lock v4.2 configurations
   data/processed/          Six normalized tables, NNLS audit, and split hash
   docs/                    Reproduction and interpretation notes
-  results/                 Locked predictions, metrics, bootstrap and ablations
+  results/                 Locked v4.1 and post-lock v4.2 results
   src/lspgmoe/             Training, physics, evaluation and prediction code
   tests/                   Public core leakage and model tests
   pyproject.toml
@@ -101,6 +117,12 @@ Run the frozen v4.1 analysis:
 .venv\Scripts\python.exe -m src.pipeline run --config configs/v4_1_main.yaml
 ```
 
+Run the post-lock LOSO robustness analysis:
+
+```powershell
+.venv\Scripts\python.exe -m src.pipeline robustness --config configs/v4_2_robustness.yaml
+```
+
 The full run performs nested source-group validation, five-seed final fitting,
 external confirmation, cluster bootstrap, calibration, rejection analysis,
 and ablations. It writes new artifacts under `outputs/v4_1_final` and does not
@@ -131,6 +153,8 @@ and check the original source license.
 ## Claim Boundaries
 
 - Do not describe the neural expert as a performance contribution in v4.1.
+- Do not promote the source-weighted v4.2 robustness variant; it failed all
+  three fixed confirmation cohorts.
 - Do not claim statistically significant nested-CV superiority over NNLS; the
   paired cluster-bootstrap confidence interval crosses zero.
 - Do not tune or select models using any external confirmation cohort.

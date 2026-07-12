@@ -55,7 +55,7 @@ def build_data(config_path: Path) -> dict[str, Any]:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="LS-PGMoE v4 research pipeline")
     subparsers = parser.add_subparsers(dest="command", required=True)
-    for command in ["build-data", "run", "smoke", "baselines", "ablations", "interpret", "audit-duplicates", "validate-import", "extract-jats", "extract-cross-jats", "extract-polymer-jats", "extract-textile-jats", "extract-pla-jats", "extract-carbon-jats", "extract-facemask-jats", "extract-chitosan-jats", "merge-staged"]:
+    for command in ["build-data", "run", "smoke", "baselines", "ablations", "interpret", "robustness", "audit-duplicates", "validate-import", "extract-jats", "extract-cross-jats", "extract-polymer-jats", "extract-textile-jats", "extract-pla-jats", "extract-carbon-jats", "extract-facemask-jats", "extract-chitosan-jats", "merge-staged"]:
         item = subparsers.add_parser(command)
         item.add_argument("--config", required=True, type=Path)
         if command == "validate-import":
@@ -123,6 +123,10 @@ def main() -> None:
         from .interpretation import run_interpretation
 
         result = run_interpretation(args.config)
+    elif args.command == "robustness":
+        from .robustness import run_model_strengthening
+
+        result = run_model_strengthening(args.config)
     elif args.command == "audit-duplicates":
         from .ingest import audit_semantic_duplicates
 

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "runtime_seconds": 47.01712369918823,
+  "config": "configs/v4_2_robustness.yaml",
+  "development_only_for_loso": true,
+  "input_hashes": {
+    "sources_v4.csv": "482dc2892ae22a6c2025877e513e978cf87f3698b971233ab3f69c79eecb3012",
+    "surfaces_v4.csv": "8e648df4490f43c6b1e15f5c72b11ffba0b59703b7229dbaab7fd33516cd41be",
+    "liquids_v4.csv": "ef702a9f7cf121555a4dcec4c7f1aae000ea08ac3397726159c71613ed376f8c",
+    "measurements_v4.csv": "643763bef619e59db900f44b483e48a20c9e425f882235093f09cd4a150f1080",
+    "splits_v4.csv": "537353819e2297a6c1b0e1e61c0cfac74a56f9288aaa0b72617bc3f82c202684",
+    "samples_v4.csv": "9e2dd56354b9b03d692915bf26a6fe656fcb1d74b048ef45e0b8a62e26b8949a"
+  },
+  "output_hashes": {
+    "loso_predictions_v4_2.csv": "48f3be2076290836aedc70b13ac48a011cf73d8140c71eae57a6a4bb33f9699d",
+    "loso_metrics_v4_2.csv": "2f487387f6e6c5a3379a23aae3d0dc3956a98cc1499acfcf99ba950b1768e285",
+    "loso_source_metrics_v4_2.csv": "e9a40a76ebc91d5f73b9711ff326883185744f8ba9fefdc23d8fcdf613c351fa",
+    "loso_bootstrap_v4_2.csv": "9135a746721c7bb9bef764e23d9d9c45dd696551b003a44f23ddf9b3d9d52995",
+    "application_case_studies_v4_2.csv": "b210e26726ddaf1fd2d8146572f7d2bb2e5115c2315c01d08e322351a9118be4",
+    "model_strengthening_report_v4_2.json": "94f84280c1885ed4ec8214f25e1ff4cf938965e2909ec2164325ba8aabb3a76d",
+    "confirmation_predictions_v4_2.csv": "21aa2f8d70179b3f7f02095000e0c5a749a33f560c9694a6010f2c6c3007d74b",
+    "confirmation_metrics_v4_2.csv": "4d1c0c708b85aa4171019b2c210a04a08bc72d3c1efd842eea4213fe6d42f154",
+    "confirmation_bootstrap_v4_2.csv": "11bed5e26b9ec90e4edca3060024998e281ff68f5bf3dbde894a3edd6f9a2ab6"
+  }
+}

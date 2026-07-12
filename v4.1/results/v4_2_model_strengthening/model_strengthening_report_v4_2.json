@@ -1,0 +1,75 @@
+{
+  "status": "complete",
+  "model_version": "ls-psrmoe-v4.2-robustness",
+  "n_samples": 240,
+  "n_sources": 8,
+  "external_sets_used_for_model_fitting_or_selection": false,
+  "external_sets_used_once_for_fixed_confirmation": true,
+  "external_case_table_is_presentation_only": true,
+  "frozen_primary_model": "physics_residual_xgboost",
+  "final_model_decision": "retain_unweighted_physics_residual_xgboost",
+  "decision_reason": "Source weighting improved development LOSO but degraded all three fixed confirmation cohorts, including the open external set. No further weighting variants may be tuned on these confirmation labels.",
+  "mae_deg": {
+    "nnls_physics": 16.334625300765037,
+    "global_mean_residual": 16.532278426693583,
+    "liquid_mean_residual": 16.901333094164578,
+    "ridge_residual": 19.417375958959262,
+    "direct_xgboost": 16.81884159579873,
+    "physics_residual_xgboost": 15.358393848423535,
+    "source_weighted_physics_residual_xgboost": 14.794175626772146
+  },
+  "source_win_fraction_vs_physics": 0.375,
+  "weighted_source_win_fraction_vs_physics": 0.375,
+  "weighted_source_win_fraction_vs_unweighted_xgboost": 0.875,
+  "source_cluster_bootstrap_vs_physics": {
+    "model_a": "physics_residual_xgboost",
+    "model_b": "nnls_physics",
+    "cluster": "source_group_id",
+    "n_clusters": 8,
+    "n_resamples": 10000,
+    "mae_difference_a_minus_b_deg": -0.9762314523415014,
+    "ci95_lower_deg": -8.127245273240874,
+    "ci95_upper_deg": 6.091712535780662,
+    "probability_a_better": 0.585
+  },
+  "source_cluster_bootstrap_weighted_vs_unweighted": {
+    "model_a": "source_weighted_physics_residual_xgboost",
+    "model_b": "physics_residual_xgboost",
+    "cluster": "source_group_id",
+    "n_clusters": 8,
+    "n_resamples": 10000,
+    "mae_difference_a_minus_b_deg": -0.5642182216513891,
+    "ci95_lower_deg": -0.8027838630773907,
+    "ci95_upper_deg": -0.1836959681644437,
+    "probability_a_better": 0.9948
+  },
+  "fixed_confirmation_mae_deg": {
+    "internal_test": {
+      "nnls_physics": 29.686184097738828,
+      "direct_xgboost": 35.89861660003662,
+      "physics_residual_xgboost": 30.086166017195755,
+      "source_weighted_physics_residual_xgboost": 41.51210066570955
+    },
+    "legacy_external": {
+      "nnls_physics": 15.10200119909839,
+      "direct_xgboost": 13.790163954618937,
+      "physics_residual_xgboost": 12.537919171453916,
+      "source_weighted_physics_residual_xgboost": 14.540897157784794
+    },
+    "prospective_open_external": {
+      "nnls_physics": 18.560368246245154,
+      "direct_xgboost": 14.98983268012989,
+      "physics_residual_xgboost": 13.438596134023852,
+      "source_weighted_physics_residual_xgboost": 14.499184923512336
+    }
+  },
+  "checks": {
+    "residual_xgboost_beats_nnls": true,
+    "residual_xgboost_beats_direct_xgboost": true,
+    "residual_xgboost_beats_ridge_residual": true,
+    "source_cluster_ci_below_zero": false,
+    "source_weighting_improves_unweighted_xgboost": true,
+    "source_weighting_does_not_degrade_open_external": false
+  },
+  "no_further_weight_tuning_on_confirmation_sets": true
+}

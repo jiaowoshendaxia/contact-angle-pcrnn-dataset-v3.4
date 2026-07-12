@@ -1,0 +1,13 @@
+﻿split,model_a,model_b,cluster,n_clusters,n_resamples,mae_difference_a_minus_b_deg,ci95_lower_deg,ci95_upper_deg,probability_a_better
+internal_test,source_weighted_physics_residual_xgboost,nnls_physics,source_group_id,4,10000,11.825916567970726,-19.407926551226918,60.772569719950354,0.3031
+internal_test,source_weighted_physics_residual_xgboost,nnls_physics,surface_group_id,9,10000,11.825916567970726,-17.304659926891325,38.47955240043727,0.2886
+internal_test,source_weighted_physics_residual_xgboost,physics_residual_xgboost,source_group_id,4,10000,11.425934648513799,0.7255128252095133,26.30734841482981,0.0042
+internal_test,source_weighted_physics_residual_xgboost,physics_residual_xgboost,surface_group_id,9,10000,11.425934648513799,2.2436707701001843,19.822892244317092,0.0247
+legacy_external,source_weighted_physics_residual_xgboost,nnls_physics,source_group_id,7,10000,-0.5611040413135964,-9.527799145477438,3.6869733759976526,0.5952
+legacy_external,source_weighted_physics_residual_xgboost,nnls_physics,surface_group_id,38,10000,-0.5611040413135964,-4.785793814644648,3.9076329109131844,0.6055
+legacy_external,source_weighted_physics_residual_xgboost,physics_residual_xgboost,source_group_id,7,10000,2.002977986330878,-0.7666087657159224,3.8610360503941745,0.3195
+legacy_external,source_weighted_physics_residual_xgboost,physics_residual_xgboost,surface_group_id,38,10000,2.002977986330878,-0.14156306705753913,4.455104830960434,0.0349
+prospective_open_external,source_weighted_physics_residual_xgboost,nnls_physics,source_group_id,7,10000,-4.061183322732818,-13.627457558176092,2.2034289081672256,0.8949
+prospective_open_external,source_weighted_physics_residual_xgboost,nnls_physics,surface_group_id,68,10000,-4.061183322732818,-7.410693254700912,-0.6697422901132857,0.9891
+prospective_open_external,source_weighted_physics_residual_xgboost,physics_residual_xgboost,source_group_id,7,10000,1.0605887894884845,-1.1137151728636294,4.186717459167941,0.3435
+prospective_open_external,source_weighted_physics_residual_xgboost,physics_residual_xgboost,surface_group_id,68,10000,1.0605887894884845,-0.2623609917811672,2.5401656171154947,0.0675
