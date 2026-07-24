@@ -1,14 +1,30 @@
 # Contact Angle Prediction Dataset and Reproducibility Packages
 
-## Current Release: LS-PSRMoE v4.1
+## Current Release: Source-Audited Revision v4.3
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21305764.svg)](https://doi.org/10.5281/zenodo.21305764)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20382890.svg)](https://doi.org/10.5281/zenodo.20382890)
 
-The current research release is available under [`v4.1/`](v4.1/README.md). It
-contains the leakage-safe probe-assisted pipeline, normalized v4 data tables,
-source/surface-disjoint validation, target-masked NNLS-OWRK physical summaries,
-physics-residual XGBoost modeling, uncertainty analysis, tests, and locked
-paper-facing results.
+The current research release is available under [`v4.3/`](v4.3/README.md). It
+contains the source-audited v4.3 data, row-level provenance decisions,
+target-masked NNLS-OWRK summaries, nested source-group validation, locked
+LS-PSRMoE v4.1 model artifacts, reviewer-requested robustness analyses,
+publication figures, tests, and public reproduction configurations.
+
+The v4.3 audit rebuilt the evidence base instead of preserving the submitted
+numbers. It releases 794 measurements from 35 sources, with 490 primary
+probe-assisted samples from 20 sources. Residual XGBoost remains the
+prespecified primary model; the stronger residual-Random-Forest sensitivity
+result is reported without post-confirmation model switching.
+
+The all-versions concept DOI is
+[10.5281/zenodo.20382890](https://doi.org/10.5281/zenodo.20382890).
+
+## Archived Release: LS-PSRMoE v4.1 and Robustness v4.2
+
+The original v4.1 research release remains under
+[`v4.1/`](v4.1/README.md). It contains the initial leakage-safe
+probe-assisted pipeline, normalized v4 data tables, uncertainty analysis,
+tests, and locked pre-audit results.
 
 An additive post-lock v4.2 robustness extension is also available inside
 [`v4.1/`](v4.1/README.md). It adds leave-one-source-out transfer, simple
@@ -16,8 +32,8 @@ residual baselines, a source-weighting stress test, fixed confirmation, and
 worked application examples. The archived v4.1 model remains primary because
 the source-weighted candidate failed all three fixed confirmation cohorts.
 
-Version-specific archived release: [Zenodo 10.5281/zenodo.21305764](https://doi.org/10.5281/zenodo.21305764).
-The all-versions concept DOI is [10.5281/zenodo.20382890](https://doi.org/10.5281/zenodo.20382890).
+Version-specific archived release:
+[Zenodo 10.5281/zenodo.21305764](https://doi.org/10.5281/zenodo.21305764).
 
 The earlier PCRNN v3.4 package is preserved below as a legacy release so that
 published hashes, results, and tags remain auditable.

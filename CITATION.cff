@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this dataset, code, locked result files, or reproducibility package, please cite this release and the associated journal article when available. Correspondence: Wenbin Liu."
-title: "Leakage-Safe Probe-Assisted Contact Angle Prediction Reproducibility Package, Version 4.1"
+title: "Leakage-Safe Probe-Assisted Contact Angle Prediction Reproducibility Package, Source-Audited Revision v4.3"
 type: software
 authors:
   - given-names: Yuying
@@ -13,13 +13,13 @@ authors:
     family-names: Xing
   - given-names: Xuyang
     family-names: Gao
-version: "v4.1.0"
-date-released: "2026-07-11"
-doi: "10.5281/zenodo.21305764"
+version: "v4.3.0"
+date-released: "2026-07-24"
+doi: "10.5281/zenodo.20382890"
 repository-code: "https://github.com/jiaowoshendaxia/contact-angle-pcrnn-dataset-v3.4"
-url: "https://doi.org/10.5281/zenodo.21305764"
+url: "https://doi.org/10.5281/zenodo.20382890"
 license: "CC-BY-4.0"
-abstract: "A public v4.1 contact-angle dataset, research codebase, and locked reproducibility package for target-masked probe-assisted prediction. The primary model uses nonnegative NNLS-OWRK surface-energy summaries and physics-residual XGBoost learning under nested source-group validation."
+abstract: "A public source-audited v4.3 contact-angle dataset, research codebase, locked model artifacts, and reviewer-analysis package for target-masked probe-assisted prediction. The primary model uses nonnegative NNLS-OWRK surface-energy summaries and physics-residual XGBoost learning under nested source-group validation."
 keywords:
   - contact angle
   - wettability

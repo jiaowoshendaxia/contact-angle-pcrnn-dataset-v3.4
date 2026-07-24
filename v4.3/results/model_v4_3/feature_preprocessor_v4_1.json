@@ -1,0 +1,160 @@
+{
+  "surface_scaler": {
+    "means": {
+      "roughness_Ra_nm": 0.0,
+      "roughness_Rq_nm": 0.0,
+      "roughness_r_factor": 0.0
+    },
+    "scales": {
+      "roughness_Ra_nm": 1.0,
+      "roughness_Rq_nm": 1.0,
+      "roughness_r_factor": 1.0
+    }
+  },
+  "liquid_scaler": {
+    "means": {
+      "liquid_total_surface_tension_mN_m": 52.128571428571426,
+      "liquid_dispersion_mN_m": 35.642857142857146,
+      "liquid_polar_mN_m": 16.485714285714288,
+      "liquid_viscosity_mPa_s": 3.95,
+      "liquid_dipole_moment_D": 0.55,
+      "liquid_dielectric_constant": 3.75
+    },
+    "scales": {
+      "liquid_total_surface_tension_mN_m": 13.490389625392513,
+      "liquid_dispersion_mN_m": 9.423353534529769,
+      "liquid_polar_mN_m": 17.392562332497068,
+      "liquid_viscosity_mPa_s": 0.9500000000000002,
+      "liquid_dipole_moment_D": 0.55,
+      "liquid_dielectric_constant": 1.6500000000000001
+    }
+  },
+  "condition_scaler": {
+    "means": {
+      "temperature_K": 298.15,
+      "humidity_percent": 0.0,
+      "pressure_atm": 1.0,
+      "droplet_volume_uL": 1.0
+    },
+    "scales": {
+      "temperature_K": 1.0,
+      "humidity_percent": 1.0,
+      "pressure_atm": 1.0,
+      "droplet_volume_uL": 1.0
+    }
+  },
+  "physics_scaler": {
+    "means": {
+      "nnls_dispersion_mj_m2": 26.893894144797798,
+      "nnls_polar_mj_m2": 5.719675828268517,
+      "nnls_physical_prediction_deg": 77.77674930448215,
+      "nnls_residual_norm": 2.5837816583315982,
+      "n_unique_liquids": 2.3946188340807173
+    },
+    "scales": {
+      "nnls_dispersion_mj_m2": 11.547756260823952,
+      "nnls_polar_mj_m2": 11.209801701918083,
+      "nnls_physical_prediction_deg": 29.973658689012915,
+      "nnls_residual_norm": 4.792480252579178,
+      "n_unique_liquids": 0.7127082894379846
+    }
+  },
+  "category_encoder": {
+    "solid_family": {
+      "<missing>": 2,
+      "cellulosic": 3,
+      "inorganic": 4,
+      "other": 5,
+      "polymer": 6
+    },
+    "solid_substrate": {
+      "<missing>": 2,
+      "electrospun terpolymer nanofibers containing perfluoroethyl alkyl methacrylate": 3
+    },
+    "surface_treatment": {
+      "300 ev electron irradiation, 360 uc/cm2, 1e-7 torr, room temperature": 2,
+      "<missing>": 3,
+      "acetyl substitution, ds 2.9": 4,
+      "acetyl substitution, ds 3.0": 5,
+      "anodized at 10 v for 40 min in 0.5 vol% hf in deionized water at 22 c; no uv treatment": 6,
+      "anodized at 15 v for 40 min in 0.5 vol% hf in deionized water at 22 c; no uv treatment": 7,
+      "anodized at 20 v for 40 min in 0.5 vol% hf in deionized water at 22 c; no uv treatment": 8,
+      "butyryl substitution, ds 3.1": 9,
+      "cleaned ti control; no anodization; no uv treatment": 10,
+      "cleaned ti control; no anodization; uv-a 300-400 nm, 15 cm distance, 24 h": 11,
+      "coating": 12,
+      "controlled weather aging; reference/0 h, 100 h, 200 h, 300 h, or 400 h as encoded in the state": 13,
+      "hg-xe uv illumination for approximately 5 min": 14,
+      "lauroyl ds 1.1 and trioxadecanoyl ds 1.9": 15,
+      "lauroyl ds 1.7 and trioxadecanoyl ds 1.3": 16,
+      "lauroyl substitution, ds 3.0": 17,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 10 ohm cm; current density 10 ma/cm2; surface porosity 30.2 +/- 1.4%": 18,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 10 ohm cm; current density 10 ma/cm2; surface porosity 30.2 +/- 1.4%; fots physical-vapor deposition for 1 h under low pressure at room temperature, followed by 120 c annealing for 2 h": 19,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 10 ohm cm; current density 20 ma/cm2; surface porosity 27.5 +/- 0.4%": 20,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 10 ohm cm; current density 20 ma/cm2; surface porosity 27.5 +/- 0.4%; fots physical-vapor deposition for 1 h under low pressure at room temperature, followed by 120 c annealing for 2 h": 21,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 6.2 ohm cm; current density 10 ma/cm2; surface porosity 74.9 +/- 6.5%": 22,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 6.2 ohm cm; current density 10 ma/cm2; surface porosity 74.9 +/- 6.5%; fots physical-vapor deposition for 1 h under low pressure at room temperature, followed by 120 c annealing for 2 h": 23,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 6.2 ohm cm; current density 20 ma/cm2; surface porosity 86.2 +/- 6.2%": 24,
+      "p-type si anodized for 90 min in hf:dmf 1:3; wafer resistivity 6.2 ohm cm; current density 20 ma/cm2; surface porosity 86.2 +/- 6.2%; fots physical-vapor deposition for 1 h under low pressure at room temperature, followed by 120 c annealing for 2 h": 25,
+      "pes dissolved in dmac and dried at 100 c": 26,
+      "propionyl substitution, ds 2.9": 27,
+      "rare-earth oxide sputtered on smooth silicon": 28,
+      "reverse-gravure coated, ir dried, calendered at 50 bar/70 c": 29,
+      "reverse-gravure coated, ir dried, calendered at 70 bar/35 c, washed and ir cured": 30,
+      "sintered pellet; mirror polished to 0.03 um before measurement": 31,
+      "untreated/as prepared": 32,
+      "valeryl substitution, ds 3.1": 33
+    },
+    "coating_or_layer": {
+      "<missing>": 2,
+      "electrospun terpolymer nanofibers containing perfluoroethyl alkyl methacrylate": 3
+    },
+    "surface_state": {
+      "<missing>": 2,
+      "after 100 h weather aging": 3,
+      "after 200 h weather aging": 4,
+      "after 300 h weather aging": 5,
+      "after 400 h weather aging": 6,
+      "after uv": 7,
+      "ambient rh 15+/-5%, 24+/-1 c": 8,
+      "as-fabricated": 9,
+      "before uv": 10,
+      "dried polymer film on glass; measured at 20 c": 11,
+      "fots-functionalized": 12,
+      "polished sintered ceramic; cleaned and vacuum-desiccated": 13,
+      "powder manually packed into a glass tube; particles shaken during treatment": 14,
+      "reference, before weather aging": 15,
+      "rough": 16,
+      "smooth silicon-supported film; cleaned and vacuum-desiccated": 17
+    },
+    "contact_angle_type": {
+      "advancing": 2,
+      "capillary_rise_derived": 3,
+      "equilibrium": 4,
+      "reported_unspecified": 5,
+      "roughness_corrected_apparent": 6,
+      "sessile_drop_on_dried_film": 7
+    },
+    "measurement_method": {
+      "cam 200 goniometer; 1-2 ul droplets in rh 15+/-5% and 24+/-1 c; apparent static angle averaged over three stabilized measurements; table 2 reports wenzel roughness-corrected theta_r unless footnoted otherwise.": 2,
+      "dataphysics oca 15ec goniometer with sca 20 software; drop volume and fitting details not reported": 3,
+      "drop-shape analysis under ambient conditions; direct tangent-angle measurement": 4,
+      "dropmaster 700 (kyowa interface science), 20 c; sessile drop on dried polymer film formed on glass.": 5,
+      "packed-bed capillary-rise method; liquid-rise height versus time converted with the washburn equation; n-hexane used to determine effective capillary radius.": 6,
+      "rame-hart m500 advanced goniometer; sintered pellets polished to a mirror finish down to 0.03 um alumina, solvent/water cleaned, and vacuum-desiccated.": 7,
+      "sessile drop, ksvcam100; images every 2 s for 20 s; young-laplace fit and mean of both droplet sides": 8,
+      "sessile_drop": 9
+    }
+  },
+  "physics_fields": [
+    "nnls_dispersion_mj_m2",
+    "nnls_polar_mj_m2",
+    "nnls_physical_prediction_deg",
+    "nnls_residual_norm",
+    "n_unique_liquids"
+  ],
+  "fit_statuses": [
+    "interior_fit",
+    "boundary_fit"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿liquid_id,liquid_name,liquid_family,liquid_total_surface_tension_mN_m,liquid_dispersion_mN_m,liquid_polar_mN_m,liquid_LW_mN_m,liquid_acid_plus_mN_m,liquid_base_minus_mN_m,liquid_viscosity_mPa_s,liquid_dipole_moment_D,liquid_dielectric_constant,liquid_property_source
+LIQ_06B74E7F53,1-bromonaphthalene,nonpolar,44.4,44.4,0.0,44.4,0.0,0.0,4.9,1.1,5.4,standard literature values at approximately 20-25 C unless source reports otherwise
+LIQ_4BDC3033E4,"1,2-dichloroethane",polar_aprotic,33.3,31.1,2.2,31.1,0.0,0.0,0.84,1.83,10.4,standard literature values at approximately 20-25 C unless source reports otherwise
+LIQ_63C19A56DE,toluene,nonpolar,28.4,28.4,0.0,28.4,0.0,0.0,0.59,0.36,2.4,standard literature values at approximately 20-25 C unless source reports otherwise
+LIQ_B6950B5CB8,hexadecane,nonpolar,27.5,27.5,0.0,27.5,0.0,0.0,3.0,0.0,2.1,standard literature values at approximately 20-25 C unless source reports otherwise
+LIQ_E0B206B2DD,n-dodecane,nonpolar,25.4,25.4,0.0,25.4,0.0,0.0,1.36,0.0,2.0,standard literature values at approximately 20-25 C unless source reports otherwise
+LIQ_FCA4FC7284,n-decane,nonpolar,23.8,23.8,0.0,23.8,0.0,0.0,0.92,0.0,2.0,standard literature values at approximately 20-25 C unless source reports otherwise
+LIQ_53310FAFB3,ethylene glycol,polar,48.0,29.0,19.0,29.0,,,,,,staged source row; standard components recorded in import table
+LIQ_1BD1B94C09,formamide,polar,58.0,39.0,19.0,39.0,,,,,,staged source row; standard components recorded in import table
+LIQ_0F4168490E,water,polar,72.8,21.8,51.0,21.8,,,,,,staged source row; standard components recorded in import table
+LIQ_5C0DC0DCD1,glycerol,polar,63.4,37.0,26.4,37.0,,,,,,staged source row; standard components recorded in import table
+LIQ_6656B41AB7,diiodomethane,nonpolar,50.8,50.8,0.0,50.8,,,,,,staged source row; standard components recorded in import table

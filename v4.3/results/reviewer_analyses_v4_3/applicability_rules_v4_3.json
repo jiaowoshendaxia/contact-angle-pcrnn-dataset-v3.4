@@ -1,0 +1,23 @@
+{
+  "hard_eligibility": {
+    "minimum_distinct_non_target_probes": 2,
+    "target_liquid_must_be_removed": true,
+    "accepted_nnls_statuses": [
+      "interior_fit",
+      "boundary_fit"
+    ]
+  },
+  "development_oof_thresholds": {
+    "ood_distance_p95": 6.895630025863628,
+    "ensemble_uncertainty_p90_deg": 1.743235409399825
+  },
+  "unvalidated_domains": [
+    "highly rough surfaces",
+    "porous surfaces",
+    "anisotropic surfaces",
+    "chemically heterogeneous surfaces",
+    "dynamic wetting conditions"
+  ],
+  "roughness_threshold_available": false,
+  "reason": "Quantitative roughness is source-confounded and too sparsely reported for a defensible numerical cutoff."
+}

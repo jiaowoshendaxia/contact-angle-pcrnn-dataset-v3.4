@@ -1,0 +1,6 @@
+﻿v4_split,measurements,sources,surfaces,liquids
+internal_test,50,4,14,9
+legacy_external,23,2,10,4
+prospective_open_external,194,6,64,5
+train,204,6,62,5
+validation,19,2,6,6

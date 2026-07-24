@@ -1,0 +1,14 @@
+PASS total_rows=128
+PASS SRC001 total=30 keep=30 exclude=0
+PASS SRC004 total=45 keep=45 exclude=0
+PASS SRC012 total=8 keep=8 exclude=0
+PASS SRC014 total=27 keep=27 exclude=0
+PASS SRC016 total=18 keep=12 exclude=6
+PASS required_fields_nonempty
+PASS contact_angle_range_0_to_180
+PASS no_duplicate_source_surface_liquid
+PASS SRC004_all_advancing
+PASS std_only_when_explicitly_labeled
+PASS SRC001_unsupported_duration_labels_absent
+PASS SRC016_secondary_rows_explicitly_excluded
+PASS SRC014_duplicate_control_marked

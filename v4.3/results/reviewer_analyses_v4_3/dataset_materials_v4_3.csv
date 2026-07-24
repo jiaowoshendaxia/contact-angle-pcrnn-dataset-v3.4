@@ -1,0 +1,16 @@
+﻿v4_split,solid_family,n,sources,surfaces
+internal_test,coating,26,2,7
+internal_test,inorganic,24,2,7
+legacy_external,polymer,23,2,10
+prospective_open_external,carbon_surface,18,1,6
+prospective_open_external,other,5,1,1
+prospective_open_external,polymer,54,1,18
+prospective_open_external,polymer_film,48,1,16
+prospective_open_external,polymer_textile,48,1,16
+prospective_open_external,textile_composite,21,1,7
+train,cellulosic,36,2,12
+train,inorganic,36,2,10
+train,other,69,2,19
+train,polymer,63,2,21
+validation,inorganic,15,1,5
+validation,polymer,4,1,1

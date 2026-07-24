@@ -1,0 +1,6 @@
+﻿source_group_id,DOI,primary_url,supplementary_url,local_evidence,access_note,retained_rows,excluded_rows
+SRC001,10.1007/s11671-009-9380-0,https://pmc.ncbi.nlm.nih.gov/articles/PMC2894349/,,raw_sources/SRC001_fulltext.xml,Europe PMC full-text XML retrieved successfully.,30,0
+SRC004,10.1038/NMAT3545,https://doi.org/10.1038/NMAT3545,https://static-content.springer.com/esm/art%3A10.1038%2Fnmat3545/MediaObjects/41563_2013_BFnmat3545_MOESM8_ESM.pdf,raw_sources/SRC004_supplement.pdf; raw_sources/SRC004_supplement.txt,Official Nature supplementary PDF retrieved successfully.,45,0
+SRC012,10.1039/C4TA06944G,https://pubs.rsc.org/en/content/getauthorversionpdf/C4TA06944G,https://www.rsc.org/suppdata/ta/c4/c4ta06944g/c4ta06944g6.pdf,Official searchable RSC PDF render inspected online; local automated requests were blocked/returned 404 and are retained as diagnostic HTML.,Values came from official author-version Table 1; measurement details came from official ESI section 3.,8,0
+SRC014,10.1039/D2RA08165B,https://pmc.ncbi.nlm.nih.gov/articles/PMC9993463/,,raw_sources/SRC014_fulltext.xml,Europe PMC full-text XML retrieved successfully.,27,0
+SRC016,10.1186/s13568-014-0032-0,https://pmc.ncbi.nlm.nih.gov/articles/PMC4077624/,,raw_sources/SRC016_fulltext.xml,Europe PMC full-text XML retrieved successfully.,12,6

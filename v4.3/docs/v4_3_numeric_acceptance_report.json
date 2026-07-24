@@ -1,0 +1,992 @@
+{
+  "status": "pass",
+  "errors": [],
+  "n_metric_checks": 140,
+  "metric_checks": [
+    {
+      "split": "nested_source_cv",
+      "model": "physics_expert",
+      "metric": "mae_deg",
+      "reported": 18.29327662001811,
+      "recomputed": 18.29327685201794
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_expert",
+      "metric": "rmse_deg",
+      "reported": 26.25621035313027,
+      "recomputed": 26.256210407414873
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_expert",
+      "metric": "r2",
+      "reported": 0.3861857160478416,
+      "recomputed": 0.38618571736694685
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_expert",
+      "metric": "medae_deg",
+      "reported": 12.618927001953123,
+      "recomputed": 12.618923999999993
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_expert",
+      "metric": "p90ae_deg",
+      "reported": 43.320080566406254,
+      "recomputed": 43.32008280000001
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "neural_expert",
+      "metric": "mae_deg",
+      "reported": 17.152203115112577,
+      "recomputed": 17.15220292825112
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "neural_expert",
+      "metric": "rmse_deg",
+      "reported": 26.9542029698451,
+      "recomputed": 26.95420294365358
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "neural_expert",
+      "metric": "r2",
+      "reported": 0.3531167690892761,
+      "recomputed": 0.35311677441146283
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "neural_expert",
+      "metric": "medae_deg",
+      "reported": 11.159820556640623,
+      "recomputed": 11.159819999999996
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "neural_expert",
+      "metric": "p90ae_deg",
+      "reported": 34.92072906494141,
+      "recomputed": 34.92073000000001
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "mae_deg",
+      "reported": 15.50916695439428,
+      "recomputed": 15.509166924458315
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "rmse_deg",
+      "reported": 25.36907909671528,
+      "recomputed": 25.369079179244352
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "r2",
+      "reported": 0.4269634685030502,
+      "recomputed": 0.4269634683756922
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "medae_deg",
+      "reported": 9.112318992614746,
+      "recomputed": 9.11231594085693
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "p90ae_deg",
+      "reported": 35.213667297363294,
+      "recomputed": 35.21366546630861
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "mae_deg",
+      "reported": 13.658352736983812,
+      "recomputed": 13.658352780604789
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "rmse_deg",
+      "reported": 22.558500594904565,
+      "recomputed": 22.558500732057418
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "r2",
+      "reported": 0.5469007283249037,
+      "recomputed": 0.5469007256626157
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "medae_deg",
+      "reported": 7.843318166732658,
+      "recomputed": 7.843318166732658
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "p90ae_deg",
+      "reported": 31.359454588561967,
+      "recomputed": 31.35945702996821
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_xgboost_baseline",
+      "metric": "mae_deg",
+      "reported": 17.522069755691046,
+      "recomputed": 17.522069828392677
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_xgboost_baseline",
+      "metric": "rmse_deg",
+      "reported": 27.826149691357035,
+      "recomputed": 27.826149828007985
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_xgboost_baseline",
+      "metric": "r2",
+      "reported": 0.3105875236674872,
+      "recomputed": 0.31058752122852284
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_xgboost_baseline",
+      "metric": "medae_deg",
+      "reported": 10.321022033691406,
+      "recomputed": 10.321021270751956
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_xgboost_baseline",
+      "metric": "p90ae_deg",
+      "reported": 43.414143880208336,
+      "recomputed": 43.414146016438785
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_random_forest_baseline",
+      "metric": "mae_deg",
+      "reported": 18.982245619330367,
+      "recomputed": 18.98224572624452
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_random_forest_baseline",
+      "metric": "rmse_deg",
+      "reported": 27.5997735337486,
+      "recomputed": 27.5997736683208
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_random_forest_baseline",
+      "metric": "r2",
+      "reported": 0.3217591531737838,
+      "recomputed": 0.3217591508218699
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_random_forest_baseline",
+      "metric": "medae_deg",
+      "reported": 12.493828645416317,
+      "recomputed": 12.493829408355765
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "direct_random_forest_baseline",
+      "metric": "p90ae_deg",
+      "reported": 56.41731227886039,
+      "recomputed": 56.417312278860386
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "ls_psrmoe_fusion",
+      "metric": "mae_deg",
+      "reported": 14.630729673006222,
+      "recomputed": 14.630729636227752
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "ls_psrmoe_fusion",
+      "metric": "rmse_deg",
+      "reported": 24.74771591171424,
+      "recomputed": 24.74771601445149
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "ls_psrmoe_fusion",
+      "metric": "r2",
+      "reported": 0.4546903938145309,
+      "recomputed": 0.45469039271369016
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "ls_psrmoe_fusion",
+      "metric": "medae_deg",
+      "reported": 8.010927108939732,
+      "recomputed": 8.010927108939732
+    },
+    {
+      "split": "nested_source_cv",
+      "model": "ls_psrmoe_fusion",
+      "metric": "p90ae_deg",
+      "reported": 32.36258710948173,
+      "recomputed": 32.362588940536405
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_expert",
+      "metric": "mae_deg",
+      "reported": 25.24690807342529,
+      "recomputed": 25.246907619999998
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_expert",
+      "metric": "rmse_deg",
+      "reported": 37.04954900201485,
+      "recomputed": 37.04954879195507
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_expert",
+      "metric": "r2",
+      "reported": 0.4995023646319698,
+      "recomputed": 0.49950236510626667
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_expert",
+      "metric": "medae_deg",
+      "reported": 15.459339141845703,
+      "recomputed": 15.459339999999997
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_expert",
+      "metric": "p90ae_deg",
+      "reported": 79.95324287414552,
+      "recomputed": 79.9532415
+    },
+    {
+      "split": "internal_test",
+      "model": "neural_expert",
+      "metric": "mae_deg",
+      "reported": 24.673505592346192,
+      "recomputed": 24.6735054
+    },
+    {
+      "split": "internal_test",
+      "model": "neural_expert",
+      "metric": "rmse_deg",
+      "reported": 33.340294234051534,
+      "recomputed": 33.34029403912663
+    },
+    {
+      "split": "internal_test",
+      "model": "neural_expert",
+      "metric": "r2",
+      "reported": 0.5947014640685626,
+      "recomputed": 0.5947014645959797
+    },
+    {
+      "split": "internal_test",
+      "model": "neural_expert",
+      "metric": "medae_deg",
+      "reported": 19.19040298461914,
+      "recomputed": 19.19040499999999
+    },
+    {
+      "split": "internal_test",
+      "model": "neural_expert",
+      "metric": "p90ae_deg",
+      "reported": 63.61607322692871,
+      "recomputed": 63.616071
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "mae_deg",
+      "reported": 25.91772745686769,
+      "recomputed": 25.917727464497087
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "rmse_deg",
+      "reported": 31.817337645813367,
+      "recomputed": 31.81733735887782
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "r2",
+      "reported": 0.6308831662178005,
+      "recomputed": 0.6308831690395806
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "medae_deg",
+      "reported": 20.391197514534,
+      "recomputed": 20.391194462776184
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "p90ae_deg",
+      "reported": 58.13904319763184,
+      "recomputed": 58.13904319763185
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "mae_deg",
+      "reported": 23.32073341919654,
+      "recomputed": 23.320732999579842
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "rmse_deg",
+      "reported": 29.33146117418312,
+      "recomputed": 29.331460938093695
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "r2",
+      "reported": 0.6863079047093303,
+      "recomputed": 0.6863079064993474
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "medae_deg",
+      "reported": 21.2810045421203,
+      "recomputed": 21.28100721240839
+    },
+    {
+      "split": "internal_test",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "p90ae_deg",
+      "reported": 47.2058719897999,
+      "recomputed": 47.2058711505665
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_xgboost_baseline",
+      "metric": "mae_deg",
+      "reported": 30.46570976257324,
+      "recomputed": 30.46570952606201
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_xgboost_baseline",
+      "metric": "rmse_deg",
+      "reported": 39.27861179713036,
+      "recomputed": 39.27861153538448
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_xgboost_baseline",
+      "metric": "r2",
+      "reported": 0.4374664371793065,
+      "recomputed": 0.437466438830853
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_xgboost_baseline",
+      "metric": "medae_deg",
+      "reported": 24.551560211181645,
+      "recomputed": 24.551560211181645
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_xgboost_baseline",
+      "metric": "p90ae_deg",
+      "reported": 70.46126708984376,
+      "recomputed": 70.46126708984376
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_random_forest_baseline",
+      "metric": "mae_deg",
+      "reported": 34.98827757441474,
+      "recomputed": 34.98827730738593
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_random_forest_baseline",
+      "metric": "rmse_deg",
+      "reported": 38.595347006894286,
+      "recomputed": 38.59534663823503
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_random_forest_baseline",
+      "metric": "r2",
+      "reported": 0.4568671404338021,
+      "recomputed": 0.45686714516561466
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_random_forest_baseline",
+      "metric": "medae_deg",
+      "reported": 37.24998048777405,
+      "recomputed": 37.249978961895145
+    },
+    {
+      "split": "internal_test",
+      "model": "direct_random_forest_baseline",
+      "metric": "p90ae_deg",
+      "reported": 54.26436867950699,
+      "recomputed": 54.26436867950699
+    },
+    {
+      "split": "internal_test",
+      "model": "ls_psrmoe_fusion",
+      "metric": "mae_deg",
+      "reported": 24.5583916041465,
+      "recomputed": 24.558391245564952
+    },
+    {
+      "split": "internal_test",
+      "model": "ls_psrmoe_fusion",
+      "metric": "rmse_deg",
+      "reported": 30.352568176870165,
+      "recomputed": 30.352567935865938
+    },
+    {
+      "split": "internal_test",
+      "model": "ls_psrmoe_fusion",
+      "metric": "r2",
+      "reported": 0.6640868039672772,
+      "recomputed": 0.6640868058109607
+    },
+    {
+      "split": "internal_test",
+      "model": "ls_psrmoe_fusion",
+      "metric": "medae_deg",
+      "reported": 20.463289622873223,
+      "recomputed": 20.463286189645686
+    },
+    {
+      "split": "internal_test",
+      "model": "ls_psrmoe_fusion",
+      "metric": "p90ae_deg",
+      "reported": 44.27871285079176,
+      "recomputed": 44.27871269820386
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_expert",
+      "metric": "mae_deg",
+      "reported": 16.930033559384555,
+      "recomputed": 16.93003347826087
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_expert",
+      "metric": "rmse_deg",
+      "reported": 22.216015903521317,
+      "recomputed": 22.21601584551087
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_expert",
+      "metric": "r2",
+      "reported": 0.0404175056335353,
+      "recomputed": 0.040417524826234064
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_expert",
+      "metric": "medae_deg",
+      "reported": 15.166393280029297,
+      "recomputed": 15.166390000000007
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_expert",
+      "metric": "p90ae_deg",
+      "reported": 35.57347412109376,
+      "recomputed": 35.57347260000001
+    },
+    {
+      "split": "legacy_external",
+      "model": "neural_expert",
+      "metric": "mae_deg",
+      "reported": 16.518779391827792,
+      "recomputed": 16.518778847826084
+    },
+    {
+      "split": "legacy_external",
+      "model": "neural_expert",
+      "metric": "rmse_deg",
+      "reported": 20.079557035983424,
+      "recomputed": 20.07955687603499
+    },
+    {
+      "split": "legacy_external",
+      "model": "neural_expert",
+      "metric": "r2",
+      "reported": 0.2161044176712193,
+      "recomputed": 0.21610444174478205
+    },
+    {
+      "split": "legacy_external",
+      "model": "neural_expert",
+      "metric": "medae_deg",
+      "reported": 15.128162384033203,
+      "recomputed": 15.128160000000001
+    },
+    {
+      "split": "legacy_external",
+      "model": "neural_expert",
+      "metric": "p90ae_deg",
+      "reported": 32.702279281616214,
+      "recomputed": 32.702277800000005
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "mae_deg",
+      "reported": 8.545673987398978,
+      "recomputed": 8.545673771785653
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "rmse_deg",
+      "reported": 12.489646501574423,
+      "recomputed": 12.489646255576
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "r2",
+      "reported": 0.6967154727022834,
+      "recomputed": 0.6967154891315307
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "medae_deg",
+      "reported": 6.157323837280273,
+      "recomputed": 6.157325363159181
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "p90ae_deg",
+      "reported": 22.350593948364267,
+      "recomputed": 22.350594253540045
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "mae_deg",
+      "reported": 10.304912608850051,
+      "recomputed": 10.304912326894168
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "rmse_deg",
+      "reported": 15.61404396085472,
+      "recomputed": 15.61404385405462
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "r2",
+      "reported": 0.5259973640390363,
+      "recomputed": 0.5259973775285349
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "medae_deg",
+      "reported": 4.382495902283097,
+      "recomputed": 4.3824951393436535
+    },
+    {
+      "split": "legacy_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "p90ae_deg",
+      "reported": 28.399763243516094,
+      "recomputed": 28.39976400645555
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "mae_deg",
+      "reported": 10.81240799945334,
+      "recomputed": 10.812407883353854
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "rmse_deg",
+      "reported": 16.358192285310842,
+      "recomputed": 16.358192180706435
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "r2",
+      "reported": 0.4797398293844263,
+      "recomputed": 0.47973984372692347
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "medae_deg",
+      "reported": 4.938433837890628,
+      "recomputed": 4.938434600830078
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "p90ae_deg",
+      "reported": 34.9515885925293,
+      "recomputed": 34.9515885925293
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "mae_deg",
+      "reported": 21.82175601035667,
+      "recomputed": 21.82175569522951
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "rmse_deg",
+      "reported": 28.282101331121883,
+      "recomputed": 28.282101299661676
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "r2",
+      "reported": -0.5551536685710372,
+      "recomputed": -0.5551536421280785
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "medae_deg",
+      "reported": 16.02907862579623,
+      "recomputed": 16.02908015167514
+    },
+    {
+      "split": "legacy_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "p90ae_deg",
+      "reported": 57.20538155176358,
+      "recomputed": 57.20538155176358
+    },
+    {
+      "split": "legacy_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "mae_deg",
+      "reported": 9.508518341060803,
+      "recomputed": 9.508517860077236
+    },
+    {
+      "split": "legacy_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "rmse_deg",
+      "reported": 14.162223523816664,
+      "recomputed": 14.162223348860202
+    },
+    {
+      "split": "legacy_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "r2",
+      "reported": 0.6100464750028324,
+      "recomputed": 0.6100464904006071
+    },
+    {
+      "split": "legacy_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "medae_deg",
+      "reported": 5.116043588252694,
+      "recomputed": 5.116040536494879
+    },
+    {
+      "split": "legacy_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "p90ae_deg",
+      "reported": 25.20198741942778,
+      "recomputed": 25.201987953485396
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_expert",
+      "metric": "mae_deg",
+      "reported": 17.81461948217805,
+      "recomputed": 17.81461962113402
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_expert",
+      "metric": "rmse_deg",
+      "reported": 25.27118869930772,
+      "recomputed": 25.271188728599363
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_expert",
+      "metric": "r2",
+      "reported": 0.602623128887138,
+      "recomputed": 0.6026231282390366
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_expert",
+      "metric": "medae_deg",
+      "reported": 12.377063751220703,
+      "recomputed": 12.377065000000002
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_expert",
+      "metric": "p90ae_deg",
+      "reported": 38.59328651428223,
+      "recomputed": 38.593287000000004
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "neural_expert",
+      "metric": "mae_deg",
+      "reported": 17.341081127677995,
+      "recomputed": 17.34108118041237
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "neural_expert",
+      "metric": "rmse_deg",
+      "reported": 23.330069119717976,
+      "recomputed": 23.330069212064686
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "neural_expert",
+      "metric": "r2",
+      "reported": 0.661324878274021,
+      "recomputed": 0.6613248758256358
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "neural_expert",
+      "metric": "medae_deg",
+      "reported": 13.342277526855469,
+      "recomputed": 13.342277499999998
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "neural_expert",
+      "metric": "p90ae_deg",
+      "reported": 35.02809677124025,
+      "recomputed": 35.02809780000002
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "mae_deg",
+      "reported": 13.17594149625793,
+      "recomputed": 13.175941580023963
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "rmse_deg",
+      "reported": 19.17816298955477,
+      "recomputed": 19.178163143023273
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "r2",
+      "reported": 0.7711424443285743,
+      "recomputed": 0.7711424408231016
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "medae_deg",
+      "reported": 8.284547403454784,
+      "recomputed": 8.28454587757587
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_xgboost_expert",
+      "metric": "p90ae_deg",
+      "reported": 29.68950172424317,
+      "recomputed": 29.689501724243172
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "mae_deg",
+      "reported": 12.10403838814018,
+      "recomputed": 12.104038413702584
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "rmse_deg",
+      "reported": 18.835194044469414,
+      "recomputed": 18.835194152734342
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "r2",
+      "reported": 0.7792547119025977,
+      "recomputed": 0.7792547095166087
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "medae_deg",
+      "reported": 6.737547488033652,
+      "recomputed": 6.737547488033648
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "physics_residual_random_forest_expert",
+      "metric": "p90ae_deg",
+      "reported": 29.94875238939223,
+      "recomputed": 29.94875227495131
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "mae_deg",
+      "reported": 13.174740559292824,
+      "recomputed": 13.17474061631665
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "rmse_deg",
+      "reported": 19.19445105092698,
+      "recomputed": 19.19445119736449
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "r2",
+      "reported": 0.7707535406714556,
+      "recomputed": 0.770753537331087
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "medae_deg",
+      "reported": 8.154111862182617,
+      "recomputed": 8.154111862182617
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_xgboost_baseline",
+      "metric": "p90ae_deg",
+      "reported": 30.87885528564454,
+      "recomputed": 30.87885528564454
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "mae_deg",
+      "reported": 19.177741290692744,
+      "recomputed": 19.177741306816724
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "rmse_deg",
+      "reported": 26.14362246206398,
+      "recomputed": 26.143622524910647
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "r2",
+      "reported": 0.5747123501501817,
+      "recomputed": 0.5747123483977565
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "medae_deg",
+      "reported": 10.903032240490184,
+      "recomputed": 10.903032240490184
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "direct_random_forest_baseline",
+      "metric": "p90ae_deg",
+      "reported": 45.25941357987069,
+      "recomputed": 45.25941344635628
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "mae_deg",
+      "reported": 12.748685538251756,
+      "recomputed": 12.748685611006293
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "rmse_deg",
+      "reported": 18.966018583725063,
+      "recomputed": 18.966018722079898
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "r2",
+      "reported": 0.776177579451057,
+      "recomputed": 0.7761775763393605
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "medae_deg",
+      "reported": 8.399752134625054,
+      "recomputed": 8.399752134625054
+    },
+    {
+      "split": "prospective_open_external",
+      "model": "ls_psrmoe_fusion",
+      "metric": "p90ae_deg",
+      "reported": 31.22971949764665,
+      "recomputed": 31.229719459499684
+    }
+  ],
+  "n_active_sources": 33,
+  "n_active_surfaces": 304,
+  "n_probe_samples": 617,
+  "n_target_leaks": 0,
+  "confirmation_used_for_model_selection": false
+}

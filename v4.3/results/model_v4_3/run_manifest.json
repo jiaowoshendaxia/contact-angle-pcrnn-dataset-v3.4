@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "model_version": "ls-psrmoe-v4.1",
+  "device": "cuda",
+  "python": "3.11.15 (main, Mar  3 2026, 14:55:34) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.10.0+cu128",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "runtime_seconds": 1661.0452198982239,
+  "n_primary_samples": 490,
+  "n_development_samples": 223,
+  "n_development_sources": 8,
+  "n_confirmation_samples": 267,
+  "selected_config": {
+    "max_delta_cos": 0.35,
+    "source_balance": true,
+    "residual_penalty": 0.05
+  },
+  "selected_experts": [
+    "physics",
+    "neural",
+    "xgboost"
+  ],
+  "selected_weights": {
+    "physics": 0.2764574660521581,
+    "neural": 0.08044379857464382,
+    "xgboost": 0.6430987353731982
+  },
+  "input_hashes": {
+    "sources_v4.csv": "677dc139442b0f785153808451bb7f569be9a63f680699ccba4ad50991a0ef9b",
+    "surfaces_v4.csv": "8406f36ca11a9ea64d5e093be10ddffbb9858f84e618320c06abd65259c9683e",
+    "liquids_v4.csv": "ef702a9f7cf121555a4dcec4c7f1aae000ea08ac3397726159c71613ed376f8c",
+    "measurements_v4.csv": "c362a29f59e8be505b3b3c7cbabca27f026e45ebba409cc1ab255c51fb0780b9",
+    "splits_v4.csv": "962d40c25fe0f22ba5b773b17d3785a970a98f75117ddfdec6da9532e1ad5e80",
+    "samples_v4.csv": "7de1a267efd2f79b30a20e6f61a6a1b3bb5c9372477db6a709f54fbd1c9ea20e"
+  },
+  "output_hashes": {
+    "predictions_v4_1.csv": "4b5f051578e3f76b6e400da9aec1e86da1975417295403f1fdd33baae9618bee",
+    "metrics_v4_1.csv": "dc54cb08e7be78803cf25e6242176101d9c5e6bce94df6587e2c2ae0b5c57230",
+    "selected_config.json": "fa888e3c10cfe171e38a5f3e96a6437de74c06200ffd3693baa53c6c5bae6903"
+  }
+}

@@ -1,0 +1,10 @@
+﻿field,present_n,total_n,completeness_fraction
+temperature_K,71,490,0.14489795918367346
+humidity_percent,9,490,0.018367346938775512
+pressure_atm,53,490,0.10816326530612246
+droplet_volume_uL,34,490,0.06938775510204082
+replicates_n,258,490,0.5265306122448979
+contact_angle_std_deg,317,490,0.6469387755102041
+roughness_Ra_nm,14,490,0.02857142857142857
+roughness_Rq_nm,32,490,0.0653061224489796
+roughness_r_factor,0,490,0.0

@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "model_version": "ls-psrmoe-v4.3-revision",
+  "python": "3.11.15 (main, Mar  3 2026, 14:55:34) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "runtime_seconds": 101.54469966888428,
+  "n_primary_samples": 490,
+  "n_development_samples": 223,
+  "n_development_sources": 8,
+  "n_provenance_decisions": 20,
+  "n_provenance_reviewed_active_sources": 14,
+  "confirmation_used_for_model_selection": false,
+  "input_hashes": {
+    "source_provenance_decisions_v4_3.csv": "9c632a84f38a3af91daec8715c5891544d8f096ab216eeb7b96c453ed5798142",
+    "nested_oof_predictions_v4_1.csv": "29cad23199587c1e7d89212b2c8f259ce4c08c336fab78a67622bcabbe68aa51",
+    "predictions_v4_1.csv": "4b5f051578e3f76b6e400da9aec1e86da1975417295403f1fdd33baae9618bee"
+  },
+  "output_hashes": {
+    "applicability_rules_v4_3.json": "34eb3d52cfc462f16bbf51287a6d2c3b6c46e5b10b1eea1326d6fabce7ea6d8a",
+    "dataset_categorical_v4_3.csv": "fefab8e965d9b9c941ab1f274a29219c5d367f600081179cf9a053e0fbe77afb",
+    "dataset_cohorts_v4_3.csv": "da9c89ac48c906180ef2994fb89c93e7cc13b06bcef07415b9bf528e874f85bf",
+    "dataset_distribution_v4_3.xlsx": "aa991fcc1fba1949548b49f008f4c9f444f8a70fda21d02de9ce38d89807a12e",
+    "dataset_liquids_v4_3.csv": "b8c5f2bdb8372d9fc3cc86c97d807ea9368c99d88370dac150de0b6d13aa6a14",
+    "dataset_materials_v4_3.csv": "badeb3287e4d7cdcdb0113884421ff44fb6db07eff0839997a99e6cc76bb144a",
+    "dataset_metadata_completeness_v4_3.csv": "91577a6ea73791f7c0bdde8ada1fb0712131148671536dc3725f3c3d032c4cab",
+    "dataset_roughness_coverage_v4_3.csv": "43509119d62e1cf8b0669f63c523590f01bc7c7db1045cb33f50150fffb99184",
+    "generalization_annotated_predictions_v4_3.csv": "ae1c37070c25285d27a35bee40eeb70a6e87d4c36bc00ae873965f65f3a40a08",
+    "generalization_strata_metrics_v4_3.csv": "04813757e899c25884a061b5dc611aa6c0bb1ebb28af819d1f3fb962b83fc154",
+    "paired_bootstrap_v4_3.csv": "9012cbe332533b4fa57dbcc675bc0cf3ed65116df1c4857c1214153dc79bc81a",
+    "practical_accuracy_v4_3.csv": "a436491b3df4d130c546cb4a153c99f78596050005137e95a37aa1484a18a52a",
+    "source_learning_curve_metrics_v4_3.csv": "df2b8d64ceed01b8588b77bd3ecb7226fd276cd4a8031dd30dfc5b137121aedd",
+    "source_learning_curve_predictions_v4_3.csv": "178e4d0398fee7bc3081c63195fc66a921ec80ae6b579fa9a7087d88e5c7eb95",
+    "source_provenance_audit_v4_3.csv": "de6384c8fe24cb2260c2a79b0e18279d0f0e47cbdddad3221339492936b5037e",
+    "strict_leave_one_liquid_metrics_v4_3.csv": "6881402a4930dbbaaec5cc31117279ec81ae4abd95eb56cb86978969de4608e7",
+    "strict_leave_one_liquid_predictions_v4_3.csv": "bbc7b956748afb752634c75abbcab8f34569f46e245f6a5da8449e6a87f16176"
+  }
+}

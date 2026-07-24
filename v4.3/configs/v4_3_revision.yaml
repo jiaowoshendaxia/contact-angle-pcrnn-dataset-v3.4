@@ -1,0 +1,39 @@
+project:
+  model_version: ls-psrmoe-v4.3-revision
+  seed: 20260724
+  output_data_dir: data/processed_v4_3
+  audit_file: results/audit_v4_3/loo_nnls_audit_v4.csv
+  v41_output_dir: results/model_v4_3
+  provenance_review_file: data/source_provenance_decisions_v4_3.csv
+  output_dir: results/reviewer_analyses_v4_3
+
+sample:
+  primary_mode: probe_assisted
+  minimum_unique_probes: 2
+  feasible_fit_status: [interior_fit, boundary_fit]
+  development_splits: [train, validation]
+  confirmation_splits: [internal_test, legacy_external, prospective_open_external]
+
+revision:
+  learning_curve_source_counts: [2, 3, 4, 5, 6, 7]
+  learning_curve_max_subsets_per_count: 20
+  learning_curve_seeds: [7, 42, 99]
+  strict_leave_one_liquid_names:
+    - water
+    - diiodomethane
+    - ethylene glycol
+    - formamide
+  practical_error_thresholds_deg: [10.0, 20.0]
+  permitted_provenance_decisions: [retain_verified, retain_reextracted, retain_corrected]
+
+robustness:
+  seeds: [7, 19, 42, 67, 99]
+  bootstrap_resamples: 10000
+  xgboost:
+    n_estimators: 400
+    max_depth: 3
+    learning_rate: 0.03
+    subsample: 0.85
+    colsample_bytree: 0.85
+    min_child_weight: 3
+    reg_lambda: 2.0

@@ -1,0 +1,24 @@
+﻿field,value,n
+contact_angle_type,static,233
+contact_angle_type,reported_unspecified,110
+contact_angle_type,advancing,46
+contact_angle_type,capillary_rise_derived,30
+contact_angle_type,sessile_drop_on_dried_film,27
+contact_angle_type,equilibrium,18
+contact_angle_type,apparent,14
+contact_angle_type,roughness_corrected_apparent,12
+measurement_method,sessile_drop,188
+measurement_method,DataPhysics OCA 15EC goniometer with SCA 20 software; drop volume and fitting details not reported,60
+measurement_method,literature_reported,59
+measurement_method,"Rame-Hart M500 advanced goniometer; sintered pellets polished to a mirror finish down to 0.03 um alumina, solvent/water cleaned, and vacuum-desiccated.",45
+measurement_method,Packed-bed capillary-rise method; liquid-rise height versus time converted with the Washburn equation; n-hexane used to determine effective capillary radius.,30
+measurement_method,drop-shape analysis under ambient conditions; direct tangent-angle measurement,30
+measurement_method,"DropMaster 700 (Kyowa Interface Science), 20 C; sessile drop on dried polymer film formed on glass.",27
+measurement_method,JC 2000D2 contact-angle tester at 25 C; mean of five positions,20
+measurement_method,"sessile drop, KSVCAM100; images every 2 s for 20 s; Young-Laplace fit and mean of both droplet sides",15
+measurement_method,CAM 200 goniometer; 1-2 uL droplets in RH 15+/-5% and 24+/-1 C; apparent static angle averaged over three stabilized measurements; Table 2 reports Wenzel roughness-corrected theta_r unless footnoted otherwise.,12
+measurement_method,OCA 20 contact-angle system; sessile-drop measurement in air; reported values are means from three positions on each sample.,4
+quality_grade,A_high,247
+quality_grade,A,243
+conflict_flag,no,437
+conflict_flag,none,53

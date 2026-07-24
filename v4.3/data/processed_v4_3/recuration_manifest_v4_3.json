@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "model_data_version": "v4.3",
+  "base_data_dir": "data/base_v4_0",
+  "output_data_dir": "data/processed_v4_3",
+  "audited_sources": [
+    "SDX002",
+    "SDX003",
+    "SDX004",
+    "SDX005",
+    "SDX007",
+    "SDX008",
+    "SDX010",
+    "SRC001",
+    "SRC002",
+    "SRC004",
+    "SRC011",
+    "SRC012",
+    "SRC013",
+    "SRC014",
+    "SRC016",
+    "SRC017",
+    "SRC018",
+    "SRC019",
+    "SRC020",
+    "SRC021"
+  ],
+  "reextracted_sources": [
+    "SRC001",
+    "SRC004",
+    "SRC012",
+    "SRC014",
+    "SRC016",
+    "SRC018",
+    "SRC019",
+    "SRC020",
+    "SRC021"
+  ],
+  "removed_duplicate_aliases": [
+    "OPEN_CELLULOSE_ESTER"
+  ],
+  "excluded_reextraction_rows": [
+    {
+      "source_group_id": "SRC012",
+      "source_locator": "Main-text Table 1, row 'peanut oil', flat surface CA column",
+      "surface_label": "Flat fluorinated ITO glass",
+      "liquid": "peanut oil",
+      "reason": "missing_locked_liquid_surface_tension_components"
+    },
+    {
+      "source_group_id": "SRC012",
+      "source_locator": "Main-text Table 1, row 'peanut oil', coated surface CA column",
+      "surface_label": "Porous superhydrophobic silica-coated ITO glass (PEDOT EC 47.7 mC/cm2)",
+      "liquid": "peanut oil",
+      "reason": "missing_locked_liquid_surface_tension_components"
+    }
+  ],
+  "excluded_sources": [
+    "SDX002",
+    "SDX003",
+    "SDX004",
+    "SDX005",
+    "SDX008",
+    "SRC011"
+  ],
+  "validation": {
+    "status": "pass",
+    "errors": [],
+    "n_sources": 35,
+    "n_surfaces": 338,
+    "n_liquids": 11,
+    "n_measurements": 794,
+    "n_zero_shot_samples": 794,
+    "n_probe_assisted_samples": 617,
+    "split_counts": {
+      "prospective_open_external": 294,
+      "train": 233,
+      "excluded_review": 81,
+      "internal_test": 70,
+      "legacy_external": 64,
+      "validation": 52
+    },
+    "nnls_fit_status_counts": {
+      "interior_fit": 402,
+      "insufficient_probes": 116,
+      "boundary_fit": 90,
+      "singular_fit": 9
+    },
+    "legacy_negative_coefficient_rows": 90
+  },
+  "split_sha256": "962d40c25fe0f22ba5b773b17d3785a970a98f75117ddfdec6da9532e1ad5e80"
+}

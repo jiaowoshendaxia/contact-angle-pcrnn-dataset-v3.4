@@ -1,0 +1,10 @@
+project:
+  model_version: data-v4.3
+  base_data_dir: data/base_v4_0
+  output_data_dir: data/processed_v4_3
+  audit_dir: results/audit_v4_3
+  provenance_review_file: data/source_provenance_decisions_v4_3.csv
+  reextraction_dir: data/reextraction_records
+  duplicate_source_aliases:
+    SRC014: [OPEN_CELLULOSE_ESTER]
+    SDX008: [OPEN_PLA_FILMS_2021]

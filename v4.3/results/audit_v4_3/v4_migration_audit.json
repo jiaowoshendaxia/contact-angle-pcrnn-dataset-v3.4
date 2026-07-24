@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "errors": [],
+  "n_sources": 35,
+  "n_surfaces": 338,
+  "n_liquids": 11,
+  "n_measurements": 794,
+  "n_zero_shot_samples": 794,
+  "n_probe_assisted_samples": 617,
+  "split_counts": {
+    "prospective_open_external": 294,
+    "train": 233,
+    "excluded_review": 81,
+    "internal_test": 70,
+    "legacy_external": 64,
+    "validation": 52
+  },
+  "nnls_fit_status_counts": {
+    "interior_fit": 402,
+    "insufficient_probes": 116,
+    "boundary_fit": 90,
+    "singular_fit": 9
+  },
+  "legacy_negative_coefficient_rows": 90
+}

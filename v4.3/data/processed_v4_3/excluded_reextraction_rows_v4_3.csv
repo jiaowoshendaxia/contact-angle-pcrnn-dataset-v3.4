@@ -1,0 +1,3 @@
+﻿source_group_id,source_locator,surface_label,liquid,reason
+SRC012,"Main-text Table 1, row 'peanut oil', flat surface CA column",Flat fluorinated ITO glass,peanut oil,missing_locked_liquid_surface_tension_components
+SRC012,"Main-text Table 1, row 'peanut oil', coated surface CA column",Porous superhydrophobic silica-coated ITO glass (PEDOT EC 47.7 mC/cm2),peanut oil,missing_locked_liquid_surface_tension_components

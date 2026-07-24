@@ -2,7 +2,12 @@
 
 Package: `release_public/`
 
-Generated: 2026-05-25
+Generated: 2026-05-25 for the legacy root package.
+
+The current v4.3 release has its own machine-generated checksum manifest at
+`v4.3/FILE_MANIFEST_SHA256.csv`. That version-specific manifest is
+authoritative for the source-audited revision; the legacy table below is
+retained unchanged so prior public hashes remain auditable.
 
 This manifest enumerates files inside the public release directory using package-relative paths. `FILE_MANIFEST.md` is not included in the hash table to avoid self-referential checksum drift.
 
