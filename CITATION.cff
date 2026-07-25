@@ -14,10 +14,10 @@ authors:
   - given-names: Xuyang
     family-names: Gao
 version: "v4.3.0"
-date-released: "2026-07-24"
-doi: "10.5281/zenodo.20382890"
+date-released: "2026-07-25"
+doi: "10.5281/zenodo.21545090"
 repository-code: "https://github.com/jiaowoshendaxia/contact-angle-pcrnn-dataset-v3.4"
-url: "https://doi.org/10.5281/zenodo.20382890"
+url: "https://doi.org/10.5281/zenodo.21545090"
 license: "CC-BY-4.0"
 abstract: "A public source-audited v4.3 contact-angle dataset, research codebase, locked model artifacts, and reviewer-analysis package for target-masked probe-assisted prediction. The primary model uses nonnegative NNLS-OWRK surface-energy summaries and physics-residual XGBoost learning under nested source-group validation."
 keywords:

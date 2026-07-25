@@ -2,7 +2,7 @@
 
 ## Current Release: Source-Audited Revision v4.3
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20382890.svg)](https://doi.org/10.5281/zenodo.20382890)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21545090.svg)](https://doi.org/10.5281/zenodo.21545090)
 
 The current research release is available under [`v4.3/`](v4.3/README.md). It
 contains the source-audited v4.3 data, row-level provenance decisions,
@@ -15,6 +15,9 @@ numbers. It releases 794 measurements from 35 sources, with 490 primary
 probe-assisted samples from 20 sources. Residual XGBoost remains the
 prespecified primary model; the stronger residual-Random-Forest sensitivity
 result is reported without post-confirmation model switching.
+
+Version-specific v4.3.0 DOI:
+[10.5281/zenodo.21545090](https://doi.org/10.5281/zenodo.21545090).
 
 The all-versions concept DOI is
 [10.5281/zenodo.20382890](https://doi.org/10.5281/zenodo.20382890).
